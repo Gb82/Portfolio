@@ -2,7 +2,8 @@
 
 body {
   background-color: whitesmoke;
-  margin: 0;
+  margin: 0 auto;
+  width: 500px;
 }
 
 .container {
@@ -32,6 +33,7 @@ h3 {
   padding-top: 40px;
 }
 
+
 #knife {
   height: 40px;
 }
@@ -40,7 +42,10 @@ h3 {
   height: 40px;
 }
 
-
+.who-am-i {
+  padding: 185px;
+  margin: 10px;
+}
 
 .who-am-i a {
   height: 10px;
@@ -50,16 +55,7 @@ h3 {
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Raleway', sans-serif;
-}
-
-.who-am-i {
-  padding: 100px;
-  margin: 10px;
-}
-
-.who-am-i a {
   box-shadow: 20px 20px 50px grey;
-
 }
 
 .buttons {
@@ -67,20 +63,10 @@ h3 {
   justify-content: center;
 }
 
-#button-linkedin a img {
-  width: 40px;
-  padding: 0px 20px;
-
-}
-
-#button-github a img {
-  width: 40px;
-  padding: 0px 20px;
-}
-
-#button-email a img {
-  width: 40px;
-  padding: 0px 20px;
+.contacts-link {
+  font-size: 36px;
+  color: black;
+  padding: 20px;
 }
 
 footer {
@@ -127,4 +113,12 @@ h3 {
   }
   #button-email a img {
     width: 60px;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    width: 1100px;
+    margin: 0 auto;
+  }
 }

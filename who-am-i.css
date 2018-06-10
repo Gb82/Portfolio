@@ -22,11 +22,10 @@ body {
 }
 
 .paragraph {
-  /* display: inline-block; */
-
   padding: 20px;
   margin: 20px;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);}
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
 
 #about-me h1 {
   font-family: 'Monoton', cursive;
@@ -36,12 +35,7 @@ body {
   filter: drop-shadow(16px 16px 20px gold);
 }
 
-h1 {
-  /* text-align: center; */
-}
-
 p {
-  /* text-align: center; */
   padding-top: 30px;
 }
 
@@ -52,15 +46,12 @@ h2 {
 
 img {
   height: 400px;
-  /* padding: 20px 60px;
-  border: solid black 2px; */
 }
 
 #about-me {
   width: 50%;
   padding-right: 10%;
   padding-left: 20px;
-  /* border: solid black 2px; */
 }
 
 footer {
@@ -101,13 +92,3 @@ footer {
   font-family: 'Raleway', sans-serif;
   box-shadow: 20px 20px 50px grey;
 }
-
-/* .who-am-i a {
-  height: 10px;
-  background-color:rgb(255,0,0);opacity:0.6;
-  padding: 10px 10px;
-  border-radius: 30px;
-  text-decoration: none;
-  color: whitesmoke;
-  font-family: 'Raleway', sans-serif;
-} */
